@@ -1,5 +1,5 @@
 input = []
-with open("aoc23.input1.txt") as f:
+with open("inputs\\aoc23.input1.txt") as f:
   input = [line.strip() for line in f.readlines()]
 
 # for each string in the calibration document
