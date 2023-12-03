@@ -1,0 +1,5 @@
+# ignore personal files
+tips from eli.txt
+
+# ignore AoC input files
+aoc23.input*.txt
