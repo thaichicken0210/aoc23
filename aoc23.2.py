@@ -39,6 +39,8 @@ for j in range(len(PullList)):
     # which i can't do bc not every game has the same number of pulls
 # print(semifinal_list)
 
+## stuff below here is bits i might need later but can't use yet bc the top part is broken
+
 # for k in range(len(semifinal_list)):
 #   final_list.append(semifinal_list[k].split(" "))
 # print(mini[0])
