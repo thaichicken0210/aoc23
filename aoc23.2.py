@@ -26,7 +26,19 @@ for i in range(len(GameList)):
   # list "PullList" now contains smaller lists, each containing strings of pulls
   # i.e. [['2 red, 2 green', '1 red'], ['5 green, 4 red', '7 blue']]
   # where this^ is game 1           and         ^this is game 2
+# how do i turn each list item here into its own list?
 
+i = 0
+k = 0
+
+for h in range(len(PullList)):
+  for j in range(len(PullList)):
+    PullList[k].insert(i, "watermelon")
+    i += 2
+  i = 0
+  k += 1
+# "watermelon" was a variable from an example code i was messing with to figure out loops
+# and i'm going to split on it anyway, i think, so for now i'm just letting it be the thing
 
 final_list = []
 semifinal_list = []
